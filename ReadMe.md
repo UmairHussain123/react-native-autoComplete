@@ -63,6 +63,7 @@ export default function App() {
         placeholder={"select fruit"}
         placeholderTextColor={"green"}
         borderBottomColor={"green"}
+        onFocusBottomColor={"black"}
         borderRadius={7}
         borderBottomWidth={2}
         borderRadiusList={10}
@@ -92,6 +93,7 @@ const styles = StyleSheet.create({
 | `parentCallback={handleCallback}` | return object                        | object   |             |
 | `placeholderTextColor`            | placeholder Text Color               | string   | null        |
 | `borderBottomColor`               | border Bottom Color                  | string   | null        |
+| `onFocusBottomColor`              | onFocus border Bottom Color          | string   | null        |
 | `borderRadius`                    | border radius of input field         | int      | null        |
 | `borderBottomWidth`               | border Bottom Width                  | int      | false       |
 | `borderRadiusList`                | menu dropdown list item radius       | int      | null        |
